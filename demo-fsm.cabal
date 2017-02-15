@@ -24,6 +24,7 @@ test-suite demo-fsm-test
   main-is:             Spec.hs
   build-depends:       base
                      , demo-fsm
+                     , hspec
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 
